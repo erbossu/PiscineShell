@@ -1,0 +1,45 @@
+mkdir Sony
+mkdir Nintendo
+cd Sony/
+mkdir Consoles
+cd Consoles/
+mkdir PS4
+mkdir PS5
+cd ..
+mkdir 'Consoles portables'
+cd ..
+cd Nintendo/
+mkdir Consoles
+mkdir 'Consoles portables'
+cd Consoles
+mkdir Gamecube
+cd ..
+cd 'Consoles portables'
+mkdir 'Game Boy'
+cd ..
+cd ..
+cd Microsoft/
+mkdir Consoles
+cd Consoles
+mkdir Xbox
+mkdir Xbox360
+cd ..
+cd ..
+mkdir Sega
+cd Sega/
+mkdir Consoles
+cd Consoles/
+mkdir Dreancast
+cd ..
+cd ..
+mv x360*.jpg Microsoft/Consoles/Xbox360/
+mv xbox_360*.jpg Microsoft/Consoles/Xbox360/
+mv xbox_*.* Microsoft/Consoles/Xbox/
+mv dc_*.* Sega/Consoles/Dreamcast/
+mv gb*.* Nintendo/'Consoles portables'/'Game Boy'/
+mv gameboy.pokmonred.jpg Nintendo/'Consoles portables'/'Game Boy'
+mv gc_*.* Nintendo/Consoles/Gamecube/
+mv playstation_4*.* Sony/Consoles/PS4/
+mv playstation_5.*.* Sony/Consoles/PS5/
+mv ps4_fifa14.jpg Sony/Consoles/PS4/
+zip -r Covers.zip Covers/
